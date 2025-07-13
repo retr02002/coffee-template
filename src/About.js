@@ -10,7 +10,7 @@ function About() {
                         <Col md={6} className='video-bg background-properties position-relative rounded-2'>
                             <Row className='justify-content-center'>
                                 <Col md={2} className='z-3'>
-                                    <a href='https://www.youtube.com/' target='_blank'>
+                                    <a href='https://www.youtube.com/' target='_blank' rel="noreferrer">
                                         <img src='https://preview.colorlib.com/theme/coffee/img/play-icon.png.webp' className='img-fluid' alt='play-button' />
                                     </a>
                                 </Col>
