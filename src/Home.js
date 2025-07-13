@@ -1,20 +1,11 @@
-import logo from "./logo.svg";
-import { ReactFragment, useState, useEffect } from "react";
 import "./Style.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
 import About from "./About";
 import Blog from "./Blog";
 import Coffee from "./Coffee";
 import Review from "./Review";
 import Sales from "./Sales";
-import CardComp from "./cardComp";
-import axios from "axios";
 
 function Home() {
-  // MAKING A TODO LIST
-  const[todos, setTodos] = useState([]);
-  const[loading, setLoading] = useState(true);
-  const[error, setError] = useState(null);
 
   // DISPLAY DATA
   // const [data, setData] = useState([]);

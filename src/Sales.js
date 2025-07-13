@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import { ReactFragment, useState } from 'react';
+import { useState } from 'react';
 import './Style.css';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Sales() {
     const [counterOn, setCounterOn] = useState(false);

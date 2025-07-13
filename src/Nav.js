@@ -1,14 +1,7 @@
-import logo from './logo.svg';
-import { ReactFragment, useState } from 'react';
+import { useState } from 'react';
 import './Style.css';
-import { Route, Link } from 'react-router-dom';
-import { Container, Row, Col, Button, Nav, NavDropdown, Navbar, Offcanvas } from 'react-bootstrap';
-import Home from './Home';
-import About from './About';
-import Coffee from './Coffee';
-import App from './App';
-import Review from './Review';
-import Blog from './Blog';
+import { Link } from 'react-router-dom';
+import { Container, Row, Col, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 
 function Navbr() {
     const [navbar, setNavbar] = useState(false);

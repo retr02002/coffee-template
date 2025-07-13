@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import { ReactFragment } from 'react';
 import './Style.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 

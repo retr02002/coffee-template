@@ -1,8 +1,5 @@
-import logo from './logo.svg';
-import { ReactFragment } from 'react';
 import './Style.css';
 import { Route, Routes, } from "react-router-dom";
-import { Container, Row, Col, Button } from 'react-bootstrap';
 import Home from './Home';
 import About from './About';
 import Coffee from './Coffee';
