@@ -1,0 +1,62 @@
+{
+    "posts": [
+      { 
+        "id": 1, 
+        "title": "Cappuccino", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 2, 
+        "title": "Americano", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 3, 
+        "title": "Espresso", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 4, 
+        "title": "Macchiato", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 5, 
+        "title": "Mocha", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 6, 
+        "title": "Coffee Latte", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 7, 
+        "title": "Piccolo Latte", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 8, 
+        "title": "Ristretto", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    },
+      { 
+        "id": 9, 
+        "title": "Affogato", 
+        "price":"$39", 
+        "body": "Usage of the Internet is becoming more common due to rapid advance." 
+    }
+    ],
+    "comments": [
+      { "id": 1, "postId": 1, "body": "Comment 1" },
+      { "id": 2, "postId": 1, "body": "Comment 2" }
+    ]
+  }

@@ -1,24 +1,35 @@
 import logo from './logo.svg';
-import './App.css';
+import { ReactFragment } from 'react';
+import './Style.css';
+import { Route, Routes, } from "react-router-dom";
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import Home from './Home';
+import About from './About';
+import Coffee from './Coffee';
+import Review from './Review';
+import Blog from './Blog';
+import Contact from './Contact';
+import Navbr from './Nav';
+import Foot from './Foot';
+import Sales from './Sales';
+import Banner from './Banner';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbr />
+      <Banner />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/review" element={<Review />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/sales" element={<Sales />} />
+        <Route path="/coffee" element={<Coffee />} />
+      </Routes>
+      <Foot />
+    </>
   );
 }
 

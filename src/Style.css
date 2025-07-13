@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root{
+    --text-color: black;
+    --text-color-2: white;
+    --text-color-3:#b68834;
+    --button-color: white;
+    --main-banner-padding: 120px 0 400px 0;
+    --foot-banner-padding: 250px 0 200px 0;
+    --section-padding:150px 0 150px 0;
+    --btn-anim-prop: all 0.3s linear;
+    --font-style: 'Poppins', sans-serif;
+    --nav-link-text: 14px;
+    --scroll-color: rgba(20, 2, 0, 0.8);
+}
+
+.main-font-style{
+    font-family: var(--font-style);
+}
+.main-heading{
+    font-size: 62px;
+}
+.theme-text-size{
+    font-size: 14px;
+}
+.theme-text-size::selection, .main-font-style::selection{
+    color: var(--text-color-2);
+    background-color: var(--text-color-3);
+}
+.sub-font{
+    color: var(--text-color-3);
+}
+.link{
+    font-size: var(--nav-link-text);
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 5px;
+}
+.link:hover{
+    border-bottom: 1px solid white;
+}
+.navbar-scroll{
+    background-color: var(--scroll-color);
+}
+
+.main-banner-padding{
+    padding: var(--main-banner-padding);
+}
+.footer-banner-padding{
+    padding: var(--foot-banner-padding);
+}
+.section-padding{
+    padding: var(--section-padding);
+}
+.sub-section-2{
+    background-color: var(--text-color-3);
+}
+
+.main-banner{
+    background-image: url("https://preview.colorlib.com/theme/coffee/img/header-bg.jpg.webp");
+}
+.sub-section{
+    background-image: url("https://preview.colorlib.com/theme/coffee/img/menu-bg.jpg.webp");
+}
+.foot-banner{
+    background-image: url("https://preview.colorlib.com/theme/coffee/img/footer-bg.jpg.webp");
+}
+
+.background-properties{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-anim{
+    transition: var(--btn-anim-prop);
+}
+.main-button{
+    color: var(--text-color);
+    background-color: var(--button-color);
+    border: 1px solid rgb(255, 255, 255);
+}
+.sub-button{
+    color: var(--text-color);
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.292);
+}
+.main-button:hover{
+    color: var(--text-color-2);
+    background-color: transparent;
+}
+.sub-button:hover{
+    color: var(--text-color-2);
+    background-color: var(--text-color-3);
+}
+.video-bg{
+    padding: 160px;
+    background-image: url("https://preview.colorlib.com/theme/coffee/img/video-bg.jpg.webp");
+}
+.video-bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.list li:not(:last-child){
+    margin-right: 30px;
+}
+#icons svg:not(:last-child){
+    margin-right: 15px;
+}
